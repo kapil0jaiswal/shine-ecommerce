@@ -1,0 +1,46 @@
+/* Resetting margin and padding for all elements */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Removing default list styling */
+ul, ol {
+  list-style: none;
+}
+
+/* Resetting font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.4;
+}
+
+/* Remove text decoration for links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Removing default table spacing */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Reset form controls */
+input, button, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Resetting image behavior */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
